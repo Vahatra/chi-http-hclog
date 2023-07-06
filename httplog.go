@@ -27,7 +27,7 @@ func NewLogger(opts ...Options) hclog.Logger {
 }
 
 // RequestLogger is an http middleware to log http requests and responses.
-//
+// test
 // NOTE: for simplicity, RequestLogger automatically makes use of the chi RequestID and
 // Recoverer middleware.
 func RequestLogger(logger hclog.Logger) func(next http.Handler) http.Handler {
